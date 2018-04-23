@@ -1,0 +1,50 @@
+@import '~element-ui/packages/theme-chalk/src/mixins/mixins.scss';
+
+@mixin display($value) {
+    .d-#{$value} {
+        display: $value !important;
+    }
+}
+
+@include display(flex);
+@include display(inline-flex);
+
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.h100 {
+    height: 100% !important;
+}
+
+.site-container {
+    margin: 0 auto;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+@include res(sm) {
+    .site-container {
+        max-width: 878px;
+    }
+}
+
+@include res(md) {
+    .site-container {
+        max-width: 1240px;
+    }
+}
