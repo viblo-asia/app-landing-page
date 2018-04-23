@@ -19,7 +19,8 @@ export default {
         ],
 
         script: [
-            { src: '/app/onepagescroll.js' }
+            { src: '/app/onepagescroll.js' },
+            { src: 'https://www.google-analytics.com/analytics.js' }
         ],
 
         link: [

@@ -1,6 +1,6 @@
 <template functional>
     <a
-        href="https://play.google.com/store/apps/details?id=com.framgia.viblo.android.prod&utm_source=landing&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+        href="https://play.google.com/store/apps/details?id=com.framgia.viblo.android.prod"
         target="_blank"
     >
         <img

@@ -36,6 +36,7 @@
     import Notifications from '~/components/Features/Notifications.vue';
     import Download from '~/components/Download.vue';
     import Footer from '~/components/Footer.vue';
+    import ga from '~/utils/ga.js'
 
     export default {
         components: {
@@ -53,6 +54,8 @@
             });
 
             this.$root.$on('jump', window.moveTo.bind(null, 'main'));
+
+            ga();
         }
     };
 </script>
