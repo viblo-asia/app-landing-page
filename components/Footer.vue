@@ -6,7 +6,7 @@
         </a>
 
         <div :class="$style.links">
-            <a href="https://viblo.asia/register" target="_blank">Sign up</a>
+            <a href="https://accounts.viblo.asia/register" target="_blank">Sign up</a>
             <a href="https://viblo.asia/terms" target="_blank">Terms</a>
         </div>
     </div>
