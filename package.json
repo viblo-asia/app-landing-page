@@ -24,7 +24,7 @@
     "element-ui": "^2.3.3",
     "fullpage-vue": "^1.9.0",
     "jump.js": "^1.0.2",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "nuxt-edge": "^2.8.1-25996330.2fabea94"
   }
 }
